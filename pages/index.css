@@ -84,9 +84,11 @@ h1 span {
   position: relative;
   font-family: "Noto Serif";
   font-style: italic;
+  max-width: 709px;
   font-size: 58px;
   font-weight: 500;
   line-height: 72px;
+  letter-spacing: -1px;
   color: #2f80ed;
   left: 80px;
   margin-bottom: 0;

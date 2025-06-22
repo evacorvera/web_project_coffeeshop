@@ -15,7 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>Cafetería Triple Peaks</title>
+    <title>Cafetería</title>
   </head>
   <body>
     <div class="page">
@@ -30,29 +30,29 @@
             <li>
               <a class="nav__link" href="#recipes">Recetas</a>
             </li>
-            <li class="nav__link">Reservar una mesa</li>
-            <li class="nav__link">Contactos</li>
+            <li>
+              <a class="nav__link" href="#reservation">Reservar una mesa</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#footer">Contactos</a>
+            </li>
           </ul>
         </nav>
-        <div class="header__content">
-          <div>
-            <h1 class="header__title">
-              <span style="color: #2f80ed"> Café de especialidad</span>
-              <span class="header__title-bottom" style="color: black"
-                >en Triple Peaks</span
-              >
-            </h1>
-            <p class="header__description">
-              ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos
-              café para darte energía y motivar tu creatividad.
-            </p>
-          </div>
-          <img
-            src="./images/inside_coffee_shop.png"
-            alt="cafetería"
-            class="header__image"
-          />
-        </div>
+        <h1 class="header__title">
+          <span style="color: #2f80ed"> Café de especialidad</span>
+          <span class="header__title-bottom" style="color: black"
+            >en Triple Peaks</span
+          >
+        </h1>
+        <p class="header__description">
+          ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
+          para darte energía y motivar tu creatividad.
+        </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="cafetería"
+          class="header__image"
+        />
         <div class="header__footer">
           <div class="header__hours">
             <p class="header__paragraph">Horario:</p>
@@ -114,7 +114,7 @@
             </div>
           </div>
         </section>
-        <section class="reservation"></section>
+        <section class="reservation" id="reservation"></section>
       </main>
       <footer class="footer"></footer>
     </div>
